@@ -1,0 +1,250 @@
+export default function Portfolio-Jordiprtama() {
+  return (
+    <div className="min-h-screen bg-gradient-to-br from-slate-50 via-white to-gray-100 text-gray-900 p-6 md:p-12">
+      <div className="max-w-7xl mx-auto space-y-20">
+        {/* Hero Section */}
+        <section className="grid md:grid-cols-2 gap-8 items-center">
+          <div className="md:order-2">
+            <img
+              src="https://images.unsplash.com/photo-1552664730-d307ca884978"
+              alt="Professional CRM specialist working with analytics dashboard"
+              className="w-full h-[420px] object-cover rounded-3xl shadow-lg"
+            />
+          </div>
+          <div className="md:order-1">
+            <p className="text-sm uppercase tracking-widest text-gray-500">
+              CRM • Data Analyst • Digital Marketing Specialist
+            </p>
+            <div className="flex items-center gap-6 mt-3">
+              <img
+                src="https://images.unsplash.com/photo-1500648767791-00dcc994a43e"
+                alt="Professional profile portrait"
+                className="w-28 h-28 md:w-36 md:h-36 rounded-full object-cover shadow-lg border-4 border-white"
+              />
+              <h1 className="text-5xl md:text-7xl font-bold leading-tight tracking-tight">
+              Jordi Pratama Putra Harahap
+              </h1>
+            </div>
+            <p className="text-lg md:text-xl text-gray-600 mt-6 leading-relaxed max-w-xl">
+              Multi-disciplinary professional with 5+ years of experience across CRM, Data Analytics, and Digital Marketing. Specialized in customer retention, performance optimization, campaign strategy, and business growth through data-driven decision making. Proven track record managing 24,000+ customer databases, optimizing marketing funnels, driving +15% conversion improvement, +20% traffic growth, and generating 3,000+ annual repeat purchases.
+            </p>
+
+            <div className="flex flex-wrap gap-3 mt-8">
+              <button className="px-7 py-4 rounded-2xl shadow-lg font-semibold border bg-gray-900 text-white hover:scale-105 transition-all duration-300">
+                Download CV
+              </button>
+              <button className="px-7 py-4 rounded-2xl shadow-md font-semibold border border-gray-300 hover:scale-105 transition-all duration-300">
+                LinkedIn Profile
+              </button>
+            </div>
+          </div>
+
+          <div className="bg-white/90 backdrop-blur-sm border border-gray-200 rounded-[28px] p-8 shadow-lg hover:shadow-xl transition-all duration-300">
+            <h2 className="text-2xl font-semibold mb-4">Key Business Impact</h2>
+            <div className="space-y-4 text-gray-700">
+              <p>• Managed 24,000+ customer database</p>
+              <p>• 10,000+ active users managed</p>
+              <p>• 3,000+ repeat purchases annually</p>
+              <p>• +15% campaign conversion improvement</p>
+              <p>• +20% traffic growth via multi-channel strategy</p>
+              <p>• +10% funnel efficiency improvement</p>
+            </div>
+          </div>
+        </section>
+
+        {/* Skills */}
+        <section>
+          <h2 className="text-3xl font-bold mb-6">Multi-Role Professional Expertise</h2>
+          <div className="grid md:grid-cols-3 gap-4">
+            {[
+              "Customer Relationship Management (CRM)",
+              "Campaign Management & Optimization",
+              "Data Analysis & Reporting",
+              "Power BI Dashboard Development",
+              "Funnel & Conversion Optimization",
+              "Customer Segmentation & Retention",
+              "Performance Marketing (Meta Ads)",
+              "TikTok Ads Optimization",
+              "A/B Testing & KPI Tracking",
+            ].map((skill) => (
+              <div
+                key={skill}
+                className="bg-white border border-gray-200 rounded-2xl p-5 shadow-md font-medium hover:-translate-y-1 transition-all duration-300"
+              >
+                {skill}
+              </div>
+            ))}
+          </div>
+        </section>
+
+        {/* Portfolio Gallery */}
+        <section>
+          <h2 className="text-3xl font-bold mb-6">Portfolio Proof of Work</h2>
+          <div className="grid md:grid-cols-3 gap-6">
+            <img
+              src="https://images.unsplash.com/photo-1454165804606-c3d57bc86b40"
+              alt="Business strategy planning and CRM presentation"
+              className="rounded-3xl shadow-sm h-64 w-full object-cover"
+            />
+            <img
+              src="https://images.unsplash.com/photo-1553877522-43269d4ea984"
+              alt="Professional business meeting and analytics review"
+              className="rounded-3xl shadow-sm h-64 w-full object-cover"
+            />
+            <img
+              src="https://images.unsplash.com/photo-1460925895917-afdab827c52f"
+              alt="Marketing analytics dashboard"
+              className="rounded-3xl shadow-sm h-64 w-full object-cover"
+            />
+            <img
+              src="https://images.unsplash.com/photo-1551288049-bebda4e38f71"
+              alt="Data reporting and customer analytics"
+              className="rounded-3xl shadow-sm h-64 w-full object-cover"
+            />
+            <img
+              src="https://images.unsplash.com/photo-1516321318423-f06f85e504b3"
+              alt="Team strategy and CRM planning"
+              className="rounded-3xl shadow-sm h-64 w-full object-cover"
+            />
+                      <img
+              src="https://images.unsplash.com/photo-1520607162513-77705c0f0d4a"
+              alt="Digital marketing strategy and campaign optimization"
+              className="rounded-3xl shadow-sm h-64 w-full object-cover"
+            />
+            <img
+              src="https://images.unsplash.com/photo-1559136555-9303baea8ebd"
+              alt="Marketing team collaboration and campaign planning"
+              className="rounded-3xl shadow-sm h-64 w-full object-cover"
+            />
+          </div>
+        </section>
+
+        {/* Experience */}
+        <section>
+          <h2 className="text-3xl font-bold mb-6">Professional Experience & Business Results</h2>
+
+          <div className="space-y-8">
+            <div className="border rounded-3xl p-6 shadow-sm bg-white">
+              <img
+                src="https://images.unsplash.com/photo-1460925895917-afdab827c52f"
+                alt="CRM and analytics dashboard"
+                className="w-full h-56 object-cover rounded-2xl mb-5"
+              />
+              <h3 className="text-xl font-semibold">
+                CRM, Data & Digital Marketing Specialist
+              </h3>
+              <p className="text-gray-500">
+                PT Madju Prima Sejahtera • 2020 – Present
+              </p>
+              <ul className="mt-4 space-y-2 text-gray-700">
+                <li>
+                  • Managed customer database of ±24,000 records with behavior-based segmentation and targeting optimization
+                </li>
+                <li>
+                  • Increased campaign conversion rate by +15% through segmentation-based strategy and funnel optimization
+                </li>
+                <li>
+                  • Generated ±3,000 repeat purchases annually through targeted retention strategies
+                </li>
+                <li>
+                  • Developed KPI dashboards using Power BI for cross-team business monitoring and visibility
+                </li>
+                <li>
+                  • Conducted A/B testing on creatives, copywriting, and audience targeting to improve campaign effectiveness
+                </li>
+                <li>
+                  • Increased website traffic by +20% through multi-channel strategy and audience targeting optimization
+                </li>
+              </ul>
+            </div>
+
+            <div className="border rounded-3xl p-6 shadow-sm bg-white">
+              <img
+                src="https://images.unsplash.com/photo-1454165804606-c3d57bc86b40"
+                alt="Administrative operations and reporting"
+                className="w-full h-56 object-cover rounded-2xl mb-5"
+              />
+              <h3 className="text-xl font-semibold">Administrator</h3>
+              <p className="text-gray-500">
+                PT Mitra 1000 Saudara • 2019 – 2020
+              </p>
+              <ul className="mt-4 space-y-2 text-gray-700">
+                <li>• Managed operational and financial transaction data accurately and systematically</li>
+                <li>• Prepared structured reports and improved internal administrative efficiency</li>
+              </ul>
+            </div>
+          </div>
+        </section>
+
+        {/* Premium Case Study Section */}
+        <section>
+          <h2 className="text-3xl font-bold mb-6">Featured Case Studies</h2>
+          <div className="grid md:grid-cols-2 gap-8">
+            <div className="bg-white border border-gray-200 rounded-3xl p-8 shadow-lg">
+              <h3 className="text-2xl font-semibold mb-3">Case Study: +15% Conversion Growth</h3>
+              <p className="text-gray-600 mb-4">
+                Improved campaign conversion rate through behavior-based segmentation and funnel optimization.
+              </p>
+              <ul className="space-y-2 text-gray-700">
+                <li><strong>Problem:</strong> Low conversion from promotional campaigns and unclear customer targeting.</li>
+                <li><strong>Action:</strong> Built customer segmentation based on behavior and optimized campaign funnel.</li>
+                <li><strong>Tools:</strong> Excel Advanced, Google Analytics, Meta Ads</li>
+                <li><strong>Result:</strong> Increased conversion rate by +15% and improved campaign efficiency.</li>
+              </ul>
+            </div>
+
+            <div className="bg-white border border-gray-200 rounded-3xl p-8 shadow-lg">
+              <h3 className="text-2xl font-semibold mb-3">Case Study: 3,000+ Repeat Purchases</h3>
+              <p className="text-gray-600 mb-4">
+                Strengthened customer retention through targeted lifecycle strategy and retention campaigns.
+              </p>
+              <ul className="space-y-2 text-gray-700">
+                <li><strong>Problem:</strong> Low repeat purchase rate from active customer base.</li>
+                <li><strong>Action:</strong> Created retention strategy using personalized targeting and lifecycle campaigns.</li>
+                <li><strong>Tools:</strong> CRM Strategy, Excel, Power BI</li>
+                <li><strong>Result:</strong> Generated 3,000+ repeat purchases annually from active customers.</li>
+              </ul>
+            </div>
+
+            <div className="bg-white border border-gray-200 rounded-3xl p-8 shadow-lg">
+              <h3 className="text-2xl font-semibold mb-3">Case Study: +20% Traffic Growth</h3>
+              <p className="text-gray-600 mb-4">
+                Increased traffic performance using multi-channel strategy and audience optimization.
+              </p>
+              <ul className="space-y-2 text-gray-700">
+                <li><strong>Problem:</strong> Traffic growth was stagnant and campaign reach was inefficient.</li>
+                <li><strong>Action:</strong> Optimized Meta Ads, TikTok Ads, and audience targeting across channels.</li>
+                <li><strong>Tools:</strong> Meta Ads Manager, TikTok Ads, Google Analytics</li>
+                <li><strong>Result:</strong> Increased website traffic by +20% with stronger audience engagement.</li>
+              </ul>
+            </div>
+
+            <div className="bg-white border border-gray-200 rounded-3xl p-8 shadow-lg">
+              <h3 className="text-2xl font-semibold mb-3">Case Study: KPI Dashboard with Power BI</h3>
+              <p className="text-gray-600 mb-4">
+                Built executive KPI dashboards to improve reporting visibility and business decisions.
+              </p>
+              <ul className="space-y-2 text-gray-700">
+                <li><strong>Problem:</strong> Teams lacked centralized reporting and KPI visibility.</li>
+                <li><strong>Action:</strong> Developed Power BI dashboards for real-time business monitoring.</li>
+                <li><strong>Tools:</strong> Power BI, Excel, Data Validation</li>
+                <li><strong>Result:</strong> Faster reporting process and stronger cross-team decision making.</li>
+              </ul>
+            </div>
+          </div>
+        </section>
+
+        {/* Professional Contact */}
+        <section className="bg-white/90 backdrop-blur-sm border border-gray-200 rounded-[28px] p-8 shadow-lg hover:shadow-xl transition-all duration-300">
+          <h2 className="text-3xl font-bold mb-4">Contact</h2>
+          <div className="space-y-2 text-gray-700">
+            <p>Email: jordipratama365@gmail.com</p>
+            <p>Location: Bekasi, Indonesia</p>
+            <p>Phone: +62 856-9414-1662</p>
+            <p>Languages: Indonesian (Native), English (Intermediate), Arabic (Intermediate)</p>
+          </div>
+        </section>
+      </div>
+    </div>
+  );
+}
